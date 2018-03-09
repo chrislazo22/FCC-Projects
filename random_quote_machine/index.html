@@ -2,18 +2,27 @@
 <html>
 <head>
   <title>Random Quotes</title>
-  <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
-  <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
-  <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script>
-</head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  <link rel="stylesheet" href="css/style.css">
 <body>
-  <h1>Random Quote Generator</h1>
-  <div id="quote-content">
+  <div class="container center-align">
+    <div class="row">
+      <h1>Random Quote Generator</h1>
+    </div>
 
+    <div class="row">
+      <div id="quote-content">
+        <span class= "quote">Hello</span>
+        <span class= "author">-The World</span>
+      </div>
+    </div>
+
+    <div class="row">
+      <button class="waves-effect waves-light btn" type="submit" id="new-quote">New Quote</button>
+    </div>
   </div>
 
-  <button class="button" id="new-quote">New Quote</button>
-
-  <script src="javascript.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script src="js/javascript.js"></script>
 </body>
 </html>
